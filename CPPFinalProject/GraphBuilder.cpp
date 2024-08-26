@@ -24,7 +24,7 @@ void GraphBuilder::CalculateShortestPathWithBFS( char startPos, char goal)
 	cout << "the first node is: " << firstNode.nodeLetter << "\n";
 	
 
-	if (startPos == goal|| visited.size() == currentParser.size()||steps > currentParser.size())
+	if (tolower(startPos )== tolower(goal)|| visited.size() == currentParser.size()||steps > currentParser.size())
 	{
 		return;
 	}

@@ -1,1 +1,2 @@
 C:\Users\ASUS\source\repos\CPPFinalProject\x64\Debug\CPPFinalProject.exe
+C:\Users\ASUS\source\repos\CppFinalProjectRepoFolder\CppFinalProjectRepo\CPPFinalProject\x64\Debug\CPPFinalProject.exe

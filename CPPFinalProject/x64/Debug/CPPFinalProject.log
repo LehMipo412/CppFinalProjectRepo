@@ -1,5 +1,5 @@
-﻿  CPPFinalProject.cpp
-C:\Users\ASUS\source\repos\CPPFinalProject\TextParser.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'CPPFinalProject.cpp')
+﻿  GraphBuilder.cpp
+C:\Users\ASUS\source\repos\CppFinalProjectRepoFolder\CppFinalProjectRepo\CPPFinalProject\TextParser.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'GraphBuilder.cpp')
   
-  CPPFinalProject.vcxproj -> C:\Users\ASUS\source\repos\CPPFinalProject\x64\Debug\CPPFinalProject.exe
+  CPPFinalProject.vcxproj -> C:\Users\ASUS\source\repos\CppFinalProjectRepoFolder\CppFinalProjectRepo\CPPFinalProject\x64\Debug\CPPFinalProject.exe
