@@ -65,7 +65,7 @@ Node GraphBuilder::LocateNodeInListByChar(char tofind)
 	{
 		indexer++;
 		cout << tofind<<"\n";
-		if (tolower( tofind) ==  currentParser[i].nodeLetter);
+		if (tolower( tofind) ==  currentParser[i].nodeLetter)
 		{
 			cout << currentParser[i].nodeLetter<<"\n";
 			return currentParser[i];
