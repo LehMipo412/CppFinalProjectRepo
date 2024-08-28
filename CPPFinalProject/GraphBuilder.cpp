@@ -93,13 +93,14 @@ void::GraphBuilder::RecourseAndBuildGraph(char startPos, char goal, vector<char>
 		
 		for (int i = 0; i < unVisitedNodes.size(); i++)
 		{
+
 			paths[steps].singlePath.push_back(firstNode.nighboursList[i].nodeLetter);
-			if (tolower(startPos) == tolower(goal))
+			if (tolower(unVisitedNodes[i]) == tolower(goal))
 			{
 				
 				
-				cout << "found Goal";
-				
+				cout << "found Goal \n";
+				cout << "visited From " << firstNode.nodeLetter << " to " << firstNode.nighboursList[i].nodeLetter << "\n";
 				paths[steps].singlePath.insert(paths[steps].singlePath.begin(), absoluteFirstChar);
 				cout << "the paths are:  \n";
 				for (Path shem : paths)
@@ -120,13 +121,14 @@ void::GraphBuilder::RecourseAndBuildGraph(char startPos, char goal, vector<char>
 				}
 
 
-				return;
+				break;
 
 			}
 			else
 			{
-				cout << "you are stupid \n";
+				
 				visitedNodes.insert(visitedNodes.begin(), firstNode.nodeLetter);
+				cout << "visited From " << firstNode.nodeLetter << " to " << firstNode.nighboursList[i].nodeLetter << "\n";
 				RecourseAndBuildGraph(unVisitedNodes[i], goal, visitedNodes);
 
 			}
