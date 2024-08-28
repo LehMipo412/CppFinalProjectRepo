@@ -23,7 +23,7 @@ int main()
 	shem.PopulateNeighbours();
 
 	GraphBuilder BobHabanai(shem.graphFounders);
-	BobHabanai.CalculateShortestPathWithBFS('A', 'E');
+	BobHabanai.CalculateShortestPathWithBFS('A', 'F', vector<char>());
 	
 	
 

@@ -34,13 +34,6 @@ void TextParser::DeconstruuctTextToData()
 
 
 
-
-
-
-
-
-
-
 	fileToRead.close();
 }
 
